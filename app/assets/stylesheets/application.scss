@@ -96,14 +96,15 @@ h1 {
 }
 
 
+
 /* NAVBAR
 ----------------------------------------------------*/
-#main_nav
+.main_nav
 {
 width: 100%;
 height: 52px;
-background-color: #464646;
-background-image: url("../img/bg_main_nav.png");
+background-color: #000000;
+background-image: url("../img/bg_main_nav.png"), radial-gradient(circle, #1180FE, #000000);
 background-repeat: repeat;
 background-attachment: scroll;
 background-position: 0% 0%;
@@ -111,6 +112,33 @@ background-clip: border-box;
 background-origin: padding-box;
 background-size: auto auto;
 position: relative;
+box-shadow: 1px 10px 12px #000000;
+position: relative;
+
+}
+
+#main_nav
+{
+width: 100%;
+height: 52px;
+background-color: #000000;
+background-image: url("../img/bg_main_nav.png"), radial-gradient(circle, #1180FE, #000000);
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+background-clip: border-box;
+background-origin: padding-box;
+background-size: auto auto;
+position: relative;
+box-shadow: 1px 10px 12px #000000;
+position: relative;
+
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 
@@ -129,6 +157,11 @@ z-index: 1000;
 #accueil {
   font-size: 30px;
   text-align: center;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* TEAMSPEAK
@@ -213,4 +246,38 @@ z-index: 1000;
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+/* Custom navbar fixed after scroll
+----------------------------------------------------------*/
+/*html, body {
+	height: 4000px;
+}*/
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+
+  height: 52px;
+  background-color: #000000;
+  background-image: url("../img/bg_main_nav.png"), radial-gradient(circle, #1180FE, #000000);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+
+  box-shadow: 1px 10px 12px #000000;
+}
+
+
+
+#banner {
+	width: 100%;
+	height: 273px;
+    background-color: gray;
+	overflow: hidden;
 }
