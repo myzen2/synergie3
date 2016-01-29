@@ -26,31 +26,11 @@ body {
   color: #5a5a5a;
 }
 
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+h1 {
+  text-align: center;
 }
 
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -89,6 +69,33 @@ body {
   height: 300px;
 }
 
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
 /* NAVBAR
 ----------------------------------------------------*/
 #main_nav
@@ -113,6 +120,25 @@ position: fixed;
 top: 0px;
 left: 0px;
 z-index: 1000;
+}
+
+
+/* ACCUEIL
+----------------------------------------------------*/
+
+#accueil {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* TEAMSPEAK
+---------------------------------------------------*/
+#teamspeak {
+  height: 50%;
+  height: 50%;
+  margin-right: -10%;
+  float: right;
+  border: black;
 }
 
 
