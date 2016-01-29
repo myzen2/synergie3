@@ -98,7 +98,7 @@
 .synergie_sharing .fa-facebook-square { color: #46629E; margin-bottom: 10px; }
 .synergie_sharing .fa-twitter-square { color: #55ACEE; margin-bottom: 10px; }
 .synergie_sharing .fa-google-plus-square { color: #DD4E42; }
-/*#synergie_sharing iframe { width: 35px; }*/
+#synergie_sharing iframe { width: 35px; }
 
 /* Footer */
 @media all and (max-width: 810px)
